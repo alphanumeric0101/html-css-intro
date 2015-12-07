@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+}
+
+
+/* select all the tags <section> */
+
+section {
+    border-bottom: 1px solid black;
+    overflow: hidden;
+}
+
+
+/* select all the tags that have
+                    class="technologies"
+                    or even class="technologies some-other-class" 
+                    or even class="some-other-class technologies some-third-class"
+            */
+
+.technologies {
+    background-color: aliceblue;
+}
+
+.schedule {
+    background-color: tomato;
+}
+
+table {
+    border-collapse: separate;
+    border: solid 3px;
+    padding: 5px;
+    border-radius: 2%;
+    margin: 1em;
+}
+
+th {
+    border-collapse: collapse;
+    border: solid 1px;
+    padding: 5px;
+}
+
+td {
+    border-collapse: collapse;
+    border: solid 1px;
+    padding: 5px;
+}
+
+.curriculum {
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+
+/* select all the UL elements that are anywhere insde a NAV element */
+nav {
+    background-color: blue;
+    padding: 10px;
+    margin-bottom: 2em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding: 1%;
+}
+
+footer section {
+    float: left;
+    width: 50%;
+}
+
+footer img {
+    width: 100px;
+}
+
+
+footer li {
+    display: inline-block;
+}
+
+footer a {
+    color: tomato;
+}
